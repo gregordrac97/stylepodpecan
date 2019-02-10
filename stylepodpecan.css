@@ -1,0 +1,44 @@
+body {
+	background-size: cover;
+	font-family: arial;
+	color: black;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+}
+
+ul li a {
+	padding: 8px 14px;
+}
+
+ul li ul li {
+	background-color: #bdff68;
+	line-height: 40px;
+	display: none;
+}
+
+ul li ul li:hover {
+	background-color: #a5de5a;
+}
+
+ul li:hover ul li {
+	display: block;
+}
+
+ul li ul li ul li {
+	margin-left: 205px;
+	top: -18px;
+	position: relative;
+	line-height: 40px;
+	list-style: none;
+}
